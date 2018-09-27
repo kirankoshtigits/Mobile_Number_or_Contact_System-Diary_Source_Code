@@ -104,7 +104,7 @@ while ($contacts=mysqli_fetch_array($getcontacts)) {
 										</div>
 									</div>
 									 <div class="form-group">
-										 <label class="col-md-2 control-label" for="home_phone">Home Number</label>
+										 <label class="col-md-2 control-label" for="home_phone">OfficeNumber</label>
 										<div class="col-md-4">
 											<input type="tel" class="form-control" id="home_phone" name="home_phone" placeholder="enter your Home Number" 
 												   required  value="<?php echo $home_phone; ?>">
@@ -112,7 +112,7 @@ while ($contacts=mysqli_fetch_array($getcontacts)) {
 										</div>
 									</div>
 									 <div class="form-group">
-										 <label class="col-md-2 control-label" for="work_phone">Office Number</label>
+										 <label class="col-md-2 control-label" for="work_phone">Home Number</label>
 										<div class="col-md-4">
 											<input type="tel" class="form-control" id="work_phone" name="work_phone" placeholder="enter your Office number" 
 												   required  value="<?php echo $work_phone; ?>">
