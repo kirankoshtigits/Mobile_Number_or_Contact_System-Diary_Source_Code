@@ -123,13 +123,13 @@ if (isset($_POST['edit']))
                         <table id="contact_table" class="table table-bordered  bg-primary table-hover ">
                             <thead>
 
-                            <th>Name</th>
-                            <th>surname</th>
+                            <th>First Name</th>
+                            <th>Last Name</th>
                             <th>Gender</th>
-                            <th>Email </th>
-                            <th>Cell Number</th>
-                            <th>work Tel</th>
-                            <th>Home Tel</th>
+                            <th>Email</th>
+                            <th>Mobile Number</th>
+                            <th>Office Number</th>
+                            <th>home Number</th>
                             <th>Address</th>
                             <th>Action</th>
                             </thead>
